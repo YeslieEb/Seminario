@@ -1,0 +1,43 @@
+/*setear mi css*/
+body {
+    box-sizing: border-box;
+    color: #303030;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*clases reutilizables*/
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/*clases específicas*/
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    margin: 5px;
+}
+
+.logo-header {
+    width: 200px;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.box-header {
+    display: inline-block;
+}
+
+header {
+    position: relative;
+}
